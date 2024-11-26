@@ -1,4 +1,8 @@
 public class Main {
+  static void myMethod(String name){
+    System.out.println("I just executed a method");
+    System.out.println(name);
+  }
   public static void main(String[] args) {
     // printing
     System.out.println("Hello World");
@@ -39,5 +43,10 @@ public class Main {
     }
     while (i < 5);
 
+    for (int y = 0; y < 5; y++) {
+      System.out.println(y);
+    }
+
+    myMethod("Sanya");
   }
 }
